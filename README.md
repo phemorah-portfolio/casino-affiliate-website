@@ -11,7 +11,7 @@
     - **DB_USERNAME=root**
     - **DB_PASSWORD=**
  
-5 - Change the DB_CONNECTION value from sql to sqlite
+5. - Change the DB_CONNECTION value from sql to sqlite
     - **Example: change DB_CONNECTION=sql to DB_CONNECTION=sqlite**
 
 6. - Run this command to auto generate your application key in .env php artisan key:generate
