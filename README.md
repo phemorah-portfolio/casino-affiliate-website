@@ -7,13 +7,12 @@
 3. - Rename the .env.example file inside the laravel project root directory to .env 
 
 4. - Delete the following lines from the new .env file
- - **DB_DATABASE=laravel**
- - **DB_USERNAME=root**
- - **DB_PASSWORD=**
+    - **DB_DATABASE=laravel**
+    - **DB_USERNAME=root**
+    - **DB_PASSWORD=**
  
-
 5 - Change the DB_CONNECTION value from sql to sqlite
-- **Example: change DB_CONNECTION=sql to DB_CONNECTION=sqlite**
+    - **Example: change DB_CONNECTION=sql to DB_CONNECTION=sqlite**
 
 6. - Run this command to auto generate your application key in .env php artisan key:generate
 
