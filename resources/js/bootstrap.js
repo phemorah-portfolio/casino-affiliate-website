@@ -1,5 +1,6 @@
 window._ = require('lodash');
 
+<<<<<<< HEAD
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This
@@ -10,6 +11,9 @@ try {
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
+=======
+try {
+>>>>>>> 5b36b3633ff69fd433f634b0929acdef5e0fdcb5
     require('bootstrap');
 } catch (e) {}
 
@@ -23,7 +27,10 @@ window.axios = require('axios');
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
+<<<<<<< HEAD
 axios.defaults.withCredentials = true;
+=======
+>>>>>>> 5b36b3633ff69fd433f634b0929acdef5e0fdcb5
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
