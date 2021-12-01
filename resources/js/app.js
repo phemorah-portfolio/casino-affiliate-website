@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -79,6 +78,4 @@ router.beforeEach((to, from, next) => {
      vuetify,
      store 
  });
-=======
-require('./bootstrap');
->>>>>>> 5b36b3633ff69fd433f634b0929acdef5e0fdcb5
+
